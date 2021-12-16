@@ -6,6 +6,7 @@ The data set, provided by kaggle, contains 8 attributes on over 2000 bank custom
 
 ## Modeling
 8 different classification models were trained on the customer attributes and churn outcome to predict the probability of a customer leaving the bank on a test set.  
+
 These models were additionally trianed with undersampling and oversampling techniques to enhance perfomance on the unbalanced data set.
 
 ## Application
