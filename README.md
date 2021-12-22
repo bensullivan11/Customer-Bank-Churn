@@ -5,9 +5,9 @@ This project provides a possible solution to help mitigate loses incurred by ban
 The data set, provided by kaggle, contains 8 attributes on over 2000 bank customers along with the associated target vairable of whether the customer exited the bank or not.
 
 ## Modeling
-8 different classification models were trained on the customer attributes and churn outcome to predict the occurance of a customer leaving the bank on a test set.  
+8 different classification models were trained on the customer attributes and churn outcome with undersampling and oversampling techniques to enhance perfomance on the unbalanced data set.
 
-These models were additionally trianed with undersampling and oversampling techniques to enhance perfomance on the unbalanced data set.
+Models were used then used to predict the occurance of a customer leaving the bank, and accuracy metrics were used to determine performance. 
 
 ## Application
 Using the customer churn probability predictions from the best model, potential increase in profits were examined when extending a targeted promotion to customers with the highest chance of exiting the bank.
